@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a018b;
+}
+
+#top-title {
+    color: #fff;
+    font-family: "Montserrat Subrayada";
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#chap-title {
+    font-family: "Montserrat Subrayada";
+    margin: 0;
+
+}
+
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.box {
+    margin: 5% 0%;
+
+}
+
+.content {
+    padding: 1% 5%;
+
+}
+
+.content .aboutme {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.item {
+    float: left;
+    padding: 1%;
+}
+
+.item .rectangle {
+    width: 100px;
+    height: 100px;
+    border: 2px black;
+    background-color: rgb(207, 207, 207);
+}
+
+.item .profile {
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a018b;
+}
+
+#copyright {
+    color: #fff;
+
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10%;
+    margin-left: auto;
+}
