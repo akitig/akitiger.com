@@ -18,6 +18,5 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             cd /home/akitig/akitiger.com/public_html/
-            git checkout main -f
             git pull
             
